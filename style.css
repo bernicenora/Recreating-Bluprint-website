@@ -1,0 +1,39 @@
+body{
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+/*Nav Bar Styles */
+.fullnavbar{
+    font-family: 'Avenir Next Demi',Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: #048282;
+}
+
+.navbar-brand{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.3em;
+    font-weight:bold;
+}
+
+.navbar-margintop{
+    margin-top:2em;
+}
+
+.btn-navbardropdown{
+    font-family: 'Avenir Next Demi',Roboto,Helvetica,Arial,sans-serif;
+    background: #d6d3eb;
+    font-weight:500;
+    font-size: 0.9em;
+    border:0;
+    border-color: #d6d3eb;
+    box-shadow: none;
+    padding:0.5em 5em;
+    color: #000;
+}
+
+.h6-navbardropdown{
+    font-weight:500;
+    font-size: 0.8em!important;
+}
+/* End of Nav Bar Styles */
