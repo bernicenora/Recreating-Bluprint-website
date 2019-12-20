@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 
@@ -29,8 +30,8 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item dropdown d-lg-flex align-items-end">
+            <a class="nav-link dropdown-toggle font-weight-bold text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               crafts
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,24 +44,37 @@
                   <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">cake decorating</button>
                 </div>
 
-                <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">crafts</h6>
-                <div class="">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  
-                  <a class="dropdown-item" href="#">Something else here</a>
+                <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">crafts</h6>
+                <div class="row">
+                  <div class="col-lg-3">
+                    <h6 class="text-uppercase h6-navbardropdown font-weight-bold">fabric + fiber</h6>
+                    <a class="dropdown-item" href="#">Quilt</a>
+                    <a class="dropdown-item" href="#">Knit</a> 
+                    <a class="dropdown-item" href="#">Sew</a>
+                    <a class="dropdown-item" href="#">Crochet</a>
+                    <a class="dropdown-item" href="#">Embroider</a>
+                  </div>
                 </div>
-            </div>
+              </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <div class="d-md-flex justify-content-end align-items-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-2x text-light"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold text-white text-uppercase" href="#">sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold text-white text-uppercase" href="#">join</a>
+            </li>
+          </div>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        
       </div>
     </nav>
     <!--End of Second Section of Top NavBar-->

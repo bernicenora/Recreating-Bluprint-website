@@ -32,6 +32,10 @@ body{
     color: #000;
 }
 
+.h6-mainnavbardropdown{
+    font-size: 0.8em!important;
+}
+
 .h6-navbardropdown{
     font-weight:500;
     font-size: 0.8em!important;
