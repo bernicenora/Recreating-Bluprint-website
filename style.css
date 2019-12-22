@@ -32,12 +32,29 @@ body{
     color: #000;
 }
 
-.h6-mainnavbardropdown{
-    font-size: 0.8em!important;
-}
-
 .h6-navbardropdown{
     font-weight:500;
     font-size: 0.8em!important;
+}
+
+.search-input{
+    display:none;
+}
+
+.search{
+    background: #343a40!important;
+    border:none;
+    color:white;
+    box-shadow: none!important;
+    border-bottom:1px solid white;
+}
+
+.search:focus{
+    box-shadow: none!important;
+    border-bottom:1px solid white;
+}
+
+.search-button:focus{
+    box-shadow: none!important;
 }
 /* End of Nav Bar Styles */
