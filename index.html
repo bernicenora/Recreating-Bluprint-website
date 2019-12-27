@@ -34,45 +34,81 @@
             <a class="nav-link dropdown-toggle font-weight-bold text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               crafts
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <div class="col-lg-10 col-md-12">
-                <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">featured</h6>
-                <div class="btn-group my-4" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">quilt</button>
-                  <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">knit</button>
-                  <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">sew</button>
-                  <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">cake decorating</button>
-                </div>
-
-                <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">crafts</h6>
-                <div class="row">
-                  <div class="col-lg-3">
-                    <h6 class="text-uppercase h6-navbardropdown font-weight-bold">fabric + fiber</h6>
-                    <a class="dropdown-item" href="#">Quilt</a>
-                    <a class="dropdown-item" href="#">Knit</a> 
-                    <a class="dropdown-item" href="#">Sew</a>
-                    <a class="dropdown-item" href="#">Crochet</a>
-                    <a class="dropdown-item" href="#">Embroider</a>
+            <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+              <div class="row">
+                <div class="col-lg-8 mr-5">
+                  <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">featured</h6>
+                  <div class="btn-group my-4" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">quilt</button>
+                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">knit</button>
+                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">sew</button>
+                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">cake decorating</button>
                   </div>
-                </div>
+
+                  <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">crafts</h6>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">fabric + fiber</h6>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Quilt</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Knit</a> 
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Sew</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Crochet</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Embroider</a>
+                      </div>
+
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">food</h6>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Cake Decorating</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Bake</a> 
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Cook</a>
+                      </div>
+
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">art</h6>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Draw</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Paint</a> 
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Photography</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Writing</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Paper Crafts</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Jewelry Making</a>
+                      </div>
+
+                      <div class="col-lg-3">
+                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">living</h6>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Home + Garden</a>
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Woodworking</a> 
+                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Fitness</a>
+                      </div>
+                        
+                      </div>
+                    </div>
+
+                  <div class="col-lg-2">
+                    <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">quick links</h6>
+                    <a class="navbardropdownitem pl-0" href="#">Shop all Products</a>
+                    <a class="navbardropdownitem pl-0" href="#">Deals of the Week</a> 
+                    <a class="navbardropdownitem pl-0" href="#">What do you want to do today?</a>
+                  </div>
               </div>
+              <!---End of Row-->
             </div>
           </li>
-          <form class="form-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0">            
             <input class="form-control mr-sm-2 search search-input collapse" id= "search-input" type="search" placeholder="Enter search item" aria-label="Search">
             <button class="btn my-2 my-sm-0 text-white search-button" id="search-button" type="submit" data-toggle="collapse" data-target="#search-input"> <span class="search-span">SEARCH</span> <i class="fas fa-search"></i></button>
           </form>
-          <div class="d-md-flex justify-content-end align-items-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-2x text-light"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold text-white text-uppercase" href="#">sign in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold text-white text-uppercase" href="#">join</a>
-            </li>
-          </div>
+        </ul>
+        
+        <ul class="d-md-inline-flex align-items-end list-inline">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-2x text-light"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-white text-uppercase" href="#">sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold text-white text-uppercase" href="#">join</a>
+          </li>
         </ul>
         
       </div>

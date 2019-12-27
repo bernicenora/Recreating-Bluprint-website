@@ -35,11 +35,22 @@ body{
 .h6-navbardropdown{
     font-weight:500;
     font-size: 0.8em!important;
+    color:#4b4b4b;
 }
 
+.navbardropdownitem{
+    font-weight:bold;
+    font-size: 0.8em!important;
+    color:#4b4b4b;
+}
+
+.text-black{
+    color:#000;
+}
+/*
 .search-input{
     display:none;
-}
+}*/
 
 .search{
     background: #343a40!important;
