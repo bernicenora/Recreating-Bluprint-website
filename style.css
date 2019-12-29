@@ -28,7 +28,7 @@ body{
     border:0;
     border-color: #d6d3eb;
     box-shadow: none;
-    padding:0.5em 5em;
+    padding:0.5em 4em;
     color: #000;
 }
 
@@ -69,3 +69,38 @@ body{
     box-shadow: none!important;
 }
 /* End of Nav Bar Styles */
+
+.dropdown-menu {
+	min-width: 500px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 900px;
+}
+
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.multi-column-dropdown li a {
+	/*display: block;
+	clear: both;*/
+	line-height: 1.428571429;
+	color: #4b4b4b;
+    white-space: normal;
+    font-weight:bold;
+}
+.multi-column-dropdown li a:hover {
+	border-bottom:1px solid #4b4b4b;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}

@@ -1,126 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+    crossorigin="anonymous"></script>
 
-    <title>Re-creating Bluprint.com</title>
-  </head>
-  <body>
-    <!--Header-->
-    <!--First Section of Fixed Top Navbar-->
-    <div class="col-lg-12 fullnavbar fixed-top">
-      <h6 class="text-white text-center text-uppercase font-weight-bold pt-2">All classes 50% off | <a href="#" class="text-lowercase text-white text-underline"><u>Limited Time Only!</u></a></h6>
-    </div>
-    <!--End of First Section of Fixed Top Navbar-->
-    <!--Second Section of Top NavBar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-margintop fixed-top">
-      <a class="navbar-brand" href="#">bluprint</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown d-lg-flex align-items-end">
-            <a class="nav-link dropdown-toggle font-weight-bold text-white text-uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              crafts
-            </a>
-            <div class="dropdown-menu p-3" aria-labelledby="navbarDropdown">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+
+  <title>Re-creating Bluprint.com</title>
+</head>
+
+<body>
+  <!--Header-->
+  <!--First Section of Fixed Top Navbar-->
+  <div class="col-lg-12 fullnavbar fixed-top">
+    <h6 class="text-white text-center text-uppercase font-weight-bold pt-2">All classes 50% off | <a href="#"
+        class="text-lowercase text-white text-underline"><u>Limited Time Only!</u></a></h6>
+  </div>
+  <!--End of First Section of Fixed Top Navbar-->
+  <!--Second Section of Top NavBar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-margintop fixed-top">
+    <a class="navbar-brand" href="#">bluprint</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown d-lg-flex align-items-end">
+          <a class="nav-link dropdown-toggle font-weight-bold text-white text-uppercase" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            crafts
+          </a>
+              <ul class="dropdown-menu multi-column columns-2 p-3">
               <div class="row">
-                <div class="col-lg-8 mr-5">
-                  <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">featured</h6>
-                  <div class="btn-group my-4" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">quilt</button>
-                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">knit</button>
-                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">sew</button>
-                    <button type="button" class="btn btn-inline btn-navbardropdown text-uppercase mr-3">cake decorating</button>
-                  </div>
-
-                  <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">crafts</h6>
+                <div class="col-sm-8">
+                  <ul class="multi-column-dropdown">
+                    <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">featured</h6>
+                    <ul class="list-group list-group-horizontal list-unstyled pb-3">
+                      <li><a href="#" class="list-group-item btn-inline text-uppercase btn-navbardropdown mr-3 px-3 py-3">quilt</a></li>
+                      <li><a href="#" class="list-group-item btn-inline text-uppercase btn-navbardropdown mr-3 px-3 py-3">knit</a></li>
+                      <li><a href="#" class="list-group-item btn-inline text-uppercase btn-navbardropdown mr-3 px-3 py-3">sew</a></li>
+                      <li><a href="#" class="list-group-item btn-inline text-uppercase btn-navbardropdown mr-3 px-3 py-3">cake decorating</a></li>
+                    </ul>
                     <div class="row">
-                      <div class="col-lg-3">
-                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">fabric + fiber</h6>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Quilt</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Knit</a> 
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Sew</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Crochet</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Embroider</a>
+                      <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                          <li><h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">fabric + fiber</h6></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Quilt</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Knit</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Sew</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Crochet</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Embroider</a></li>
+                        </ul>
                       </div>
-
-                      <div class="col-lg-3">
-                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">food</h6>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Cake Decorating</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Bake</a> 
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Cook</a>
+                      <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                          <li><h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">food</h6></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Cake Decorating</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Bake</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Cook</a></li>
+                        </ul>
                       </div>
-
-                      <div class="col-lg-3">
-                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">art</h6>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Draw</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Paint</a> 
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Photography</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Writing</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Paper Crafts</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Jewelry Making</a>
+                      <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                          <li><h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">art</h6></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Draw</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Paint</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Photography</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Writing</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Paper Craft</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Jewelry Making</a></li>
+                        </ul>
                       </div>
-
-                      <div class="col-lg-3">
-                        <h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">living</h6>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Home + Garden</a>
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Woodworking</a> 
-                        <a class="dropdown-item navbardropdownitem pl-0" href="#">Fitness</a>
-                      </div>
-                        
+                      <div class="col-sm-3">
+                        <ul class="list-unstyled">
+                          <li><h6 class="text-uppercase h6-navbardropdown font-weight-bold text-black">living</h6></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Home + Garden</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Woodworking</a></li>
+                          <li><a class="dropdown-item navbardropdownitem pl-0" href="#">Fitness</a></li>
+                        </ul>
                       </div>
                     </div>
-
-                  <div class="col-lg-2">
-                    <h6 class="text-uppercase text-muted py-2 h6-navbardropdown font-weight-bold">quick links</h6>
-                    <a class="navbardropdownitem pl-0" href="#">Shop all Products</a>
-                    <a class="navbardropdownitem pl-0" href="#">Deals of the Week</a> 
-                    <a class="navbardropdownitem pl-0" href="#">What do you want to do today?</a>
-                  </div>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                  <ul class="multi-column-dropdown">
+                    <h6 class="text-uppercase text-muted py-2 h6-navbardropdown">quick links</h6>
+                    <li><a class="navbardropdownitem pl-0" href="#">Shop all Products</a></li>
+                    <li><a class="navbardropdownitem pl-0" href="#">Deals of the Week</a></li>
+                    <li><a class="navbardropdownitem pl-0" href="#">What do you want to do today?</a></li>
+                    <li><a class="navbardropdownitem pl-0" href="#">Maker Forum</a></li>
+                    <li><a class="navbardropdownitem pl-0" href="#">Bluprint Refer a Friend Program</a></li> 
+                  </ul>
+                </div>
               </div>
-              <!---End of Row-->
-            </div>
+            </ul>
           </li>
-          <form class="form-inline my-2 my-lg-0">            
-            <input class="form-control mr-sm-2 search search-input collapse" id= "search-input" type="search" placeholder="Enter search item" aria-label="Search">
-            <button class="btn my-2 my-sm-0 text-white search-button" id="search-button" type="submit" data-toggle="collapse" data-target="#search-input"> <span class="search-span">SEARCH</span> <i class="fas fa-search"></i></button>
-          </form>
-        </ul>
-        
-        <ul class="d-md-inline-flex align-items-end list-inline">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-2x text-light"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold text-white text-uppercase" href="#">sign in</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold text-white text-uppercase" href="#">join</a>
-          </li>
-        </ul>
-        
-      </div>
-    </nav>
-    <!--End of Second Section of Top NavBar-->
-    <!--End of Header-->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
+        </li>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 search search-input collapse" id="search-input" type="search"
+            placeholder="Enter search item" aria-label="Search">
+          <button class="btn my-2 my-sm-0 text-white search-button" id="search-button" type="submit"
+            data-toggle="collapse" data-target="#search-input"> <span class="search-span">SEARCH</span> <i
+              class="fas fa-search"></i></button>
+        </form>
+      </ul>
+
+      <ul class="d-md-inline-flex align-items-end list-inline">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-2x text-light"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-white text-uppercase" href="#">sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-white text-uppercase" href="#">join</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--End of Second Section of Top NavBar-->
+  <!--End of Header-->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
