@@ -68,7 +68,7 @@ body{
 .search-button:focus{
     box-shadow: none!important;
 }
-/* End of Nav Bar Styles */
+
 
 .dropdown-menu {
 	min-width: 500px;
@@ -95,12 +95,23 @@ body{
     font-weight:bold;
 }
 .multi-column-dropdown li a:hover {
-	border-bottom:1px solid #4b4b4b;
+    /*border-bottom:1px solid #4b4b4b;*/
+    background-color: transparent;
+    text-decoration: underline;
 }
  
-@media (max-width: 767px) {
+.divider{
+    border-right:1px solid #ccc;
+}
+/* End of Nav Bar Styles */
+
+/* Media Queries for Responsiveness */
+
+/*@media (max-width: 767px) {
 	.dropdown-menu.multi-column {
 		min-width: 240px !important;
 		overflow-x: hidden;
 	}
-}
+}*/
+
+
