@@ -2,6 +2,10 @@ body{
     font-family: 'Open Sans', arial, sans-serif;
 }
 
+header{
+    height:100vh;
+    background:url(images/crochetbanner.jpg) no-repeat center center /cover;
+}
 /*Nav Bar Styles */
 .fullnavbar{
     font-family: 'Avenir Next Demi',Roboto,Helvetica,Arial,sans-serif;
@@ -107,6 +111,12 @@ body{
     border-right:1px solid #ccc;
 }
 /* End of Nav Bar Styles */
+
+/* Banner Image Section */
+.banner-img{
+    
+}
+/* End of Banner Image Section */
 
 /* Media Queries for Responsiveness */
 
