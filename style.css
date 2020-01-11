@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    height:100vh;
+    height:55vh;
     background:url(images/crochetbanner.jpg) no-repeat center center /cover;
 }
 /*Nav Bar Styles */
@@ -113,8 +113,16 @@ header{
 /* End of Nav Bar Styles */
 
 /* Banner Image Section */
-.banner-img{
-    
+.headline{
+    position:absolute;
+    top:38%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:60%;
+    text-align:center;
+    background-color:#eee;
+    padding:1em;
+    font-size:0.8em;
 }
 /* End of Banner Image Section */
 
