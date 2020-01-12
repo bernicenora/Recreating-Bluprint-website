@@ -126,6 +126,21 @@ header{
 }
 /* End of Banner Image Section */
 
+/* Explore Your Craft Section */
+.carousel-parent{
+    position:relative;
+}
+
+.label{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: #eee;
+    padding:0.3em;
+}
+
+/* End of Explore Your Craft Section */
 /* Media Queries for Responsiveness */
 
 @media (max-width: 767px) {
